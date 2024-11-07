@@ -1,0 +1,14 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.chatbox-container {
+  background-color: #f0f4f8; /* Light grey background */
+  border: 1px solid #e0e0e0; /* Light grey border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 16px; /* Padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
